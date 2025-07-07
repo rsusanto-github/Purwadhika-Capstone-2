@@ -18,7 +18,7 @@ Aplikasi belanja furnitur berbasis terminal (Command Line Interface) yang menyim
 
 1. Clone repo ini
 ```
-git clone
+git clone https://github.com/rsusanto-github/Purwadhika-Capstone-2.git
 ```
 2. Install library yang dibutuhkan:
 ```
