@@ -55,7 +55,8 @@ Menampilkan isi keranjang dan meminta user memilih nomor item untuk dihapus dari
 ### update_item()
 Menampilkan isi keranjang dan meminta user memilih item dan memasukkan qty baru
 
-###checkout()
+### checkout()
+
 -Menampilkan isi keranjang
 -Meminta konfirmasi user untuk lanjut checkout
 -Meminta input jumlah uang dari user
