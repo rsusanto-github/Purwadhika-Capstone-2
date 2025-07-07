@@ -40,51 +40,28 @@ Fungsi utama program yang menampilkan menu:
 6. Keluar program
 
 ### tampilkan_keranjang()
-Menampilkan isi keranjang belanja
+Menampilkan isi keranjang belanja. Jika kosong, tampilkan pesan peringatan menggunakan tabulate untuk menampilkan tabel rapi.
 
-Jika kosong, tampilkan pesan peringatan
-
-Menggunakan tabulate untuk menampilkan tabel rapi
-
-## pilih_kategori()
-Menampilkan semua kategori produk
-
-User memilih salah satu kategori (0 untuk kembali)
-
+### pilih_kategori()
+Menampilkan semua kategori produk, user memilih salah satu kategori (0 untuk kembali).
 Memanggil pilih_produk(kategori) berdasarkan pilihan
 
-###pilih_produk(kategori)
-Menampilkan daftar produk dalam suatu kategori
+### pilih_produk(kategori)
+Menampilkan daftar produk dalam suatu kategori. User memilih produk dan jumlah (qty) yang ingin dibeli, produk akan ditambahkan ke dalam list keranjang.
 
-User memilih produk dan jumlah (qty) yang ingin dibeli
+### hapus_item()
+Menampilkan isi keranjang dan meminta user memilih nomor item untuk dihapus dari list keranjang berdasarkan input.
 
-Produk akan ditambahkan ke dalam list keranjang
-
-###hapus_item()
-Menampilkan isi keranjang
-
-Meminta user memilih nomor item untuk dihapus
-
-Menghapus item dari list keranjang berdasarkan input
-
-###update_item()
-Menampilkan isi keranjang
-
-Meminta user memilih item dan memasukkan qty baru
-
-Memperbarui jumlah pembelian item yang dipilih
+### update_item()
+Menampilkan isi keranjang dan meminta user memilih item dan memasukkan qty baru
 
 ###checkout()
-Menampilkan isi keranjang
+-Menampilkan isi keranjang
+-Meminta konfirmasi user untuk lanjut checkout
+-Meminta input jumlah uang dari user
+-Mengecek apakah uang cukup
 
-Meminta konfirmasi user untuk lanjut checkout
+### Jika cukup:
 
-Meminta input jumlah uang dari user
-
-Mengecek apakah uang cukup
-
-###Jika cukup:
-
-Menampilkan dan menyimpan struk belanja ke .txt
-
-Menghapus semua item di keranjang setelah checkout berhasil
+-Menampilkan dan menyimpan struk belanja ke .txt
+-Menghapus semua item di keranjang setelah checkout berhasil
