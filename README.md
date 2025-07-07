@@ -30,7 +30,8 @@ python3 dekoruma.py
 ```
 
 ## ⚙️ Penjelasan Functions
-menu_utama()
+
+### menu_utama()
 Fungsi utama program yang menampilkan menu:
 1. Lihat Keranjang
 2. Tambah Item
