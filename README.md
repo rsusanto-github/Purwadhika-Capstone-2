@@ -53,16 +53,37 @@ Menampilkan daftar produk dalam suatu kategori. User memilih produk dan jumlah (
 Menampilkan isi keranjang dan meminta user memilih nomor item untuk dihapus dari list keranjang berdasarkan input.
 
 ### update_item()
-Menampilkan isi keranjang dan meminta user memilih item dan memasukkan qty baru
+Menampilkan isi keranjang dan meminta user memilih item dan memasukkan qty baru.
 
 ### checkout()
 
--Menampilkan isi keranjang
--Meminta konfirmasi user untuk lanjut checkout
--Meminta input jumlah uang dari user
--Mengecek apakah uang cukup
+-Menampilkan isi keranjang lalu meminta konfirmasi user untuk lanjut checkout. Meminta input jumlah uang dari user dan mengecek apakah uang cukup.
 
 ### Jika cukup:
 
--Menampilkan dan menyimpan struk belanja ke .txt
--Menghapus semua item di keranjang setelah checkout berhasil
+Menampilkan dan menyimpan struk belanja ke .txt
+```
+======= STRUK PEMBELIAN DEKORUMA =======
+
+Dekoruma Living
+Jl. Belanja No. 88, Jakarta
+Telp: 021-12345678
+Tanggal : 03 Juli 2025 20:47:11
+ID Transaksi: A1B2C3D4
+
++----+----------------------------+-----+---------------+------------+
+| No | Nama Produk               | Qty | Harga Satuan  | Subtotal   |
++----+----------------------------+-----+---------------+------------+
+| 1  | Sofa Scandinavian          | 2   | Rp3300000     | Rp6600000  |
+| 2  | Lampu LED Strip           | 1   | Rp300000      | Rp300000   |
++----+----------------------------+-----+---------------+------------+
+
+Total Belanja : Rp6900000
+Uang Dibayar  : Rp7000000
+Kembalian     : Rp100000
+
+========================================
+Terima kasih telah berbelanja di Dekoruma!
+```
+
+Menghapus semua item di keranjang setelah checkout berhasil.
