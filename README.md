@@ -39,42 +39,42 @@ Fungsi utama program yang menampilkan menu:
 5. Checkout
 6. Keluar program
 
-tampilkan_keranjang()
+###tampilkan_keranjang()
 Menampilkan isi keranjang belanja
 
 Jika kosong, tampilkan pesan peringatan
 
 Menggunakan tabulate untuk menampilkan tabel rapi
 
-pilih_kategori()
+###pilih_kategori()
 Menampilkan semua kategori produk
 
 User memilih salah satu kategori (0 untuk kembali)
 
 Memanggil pilih_produk(kategori) berdasarkan pilihan
 
-pilih_produk(kategori)
+###pilih_produk(kategori)
 Menampilkan daftar produk dalam suatu kategori
 
 User memilih produk dan jumlah (qty) yang ingin dibeli
 
 Produk akan ditambahkan ke dalam list keranjang
 
-hapus_item()
+###hapus_item()
 Menampilkan isi keranjang
 
 Meminta user memilih nomor item untuk dihapus
 
 Menghapus item dari list keranjang berdasarkan input
 
-update_item()
+###update_item()
 Menampilkan isi keranjang
 
 Meminta user memilih item dan memasukkan qty baru
 
 Memperbarui jumlah pembelian item yang dipilih
 
-checkout()
+###checkout()
 Menampilkan isi keranjang
 
 Meminta konfirmasi user untuk lanjut checkout
@@ -83,7 +83,7 @@ Meminta input jumlah uang dari user
 
 Mengecek apakah uang cukup
 
-Jika cukup:
+###Jika cukup:
 
 Menampilkan dan menyimpan struk belanja ke .txt
 
