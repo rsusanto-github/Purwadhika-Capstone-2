@@ -39,14 +39,14 @@ Fungsi utama program yang menampilkan menu:
 5. Checkout
 6. Keluar program
 
-###tampilkan_keranjang()
+### tampilkan_keranjang()
 Menampilkan isi keranjang belanja
 
 Jika kosong, tampilkan pesan peringatan
 
 Menggunakan tabulate untuk menampilkan tabel rapi
 
-###pilih_kategori()
+## pilih_kategori()
 Menampilkan semua kategori produk
 
 User memilih salah satu kategori (0 untuk kembali)
